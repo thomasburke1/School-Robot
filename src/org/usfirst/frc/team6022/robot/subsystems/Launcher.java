@@ -5,7 +5,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class Launcher extends Subsystem {
 
 	protected void initDefaultCommand() {
-		set
+		setDefaultCommand
 	}
 	
 }
