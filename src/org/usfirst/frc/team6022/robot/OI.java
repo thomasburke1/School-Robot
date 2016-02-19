@@ -9,19 +9,33 @@ import edu.wpi.first.wpilibj.Joystick;
 public class OI {
 
     final Joystick joystick = new Joystick(0);
+    
+    final Joystick joystick1 = new Joystick(1);
+    
+    public OI() {
+    	
+    }
+    
 	public Joystick getJoystick()
 	{
 		return joystick;
 	}
 	
+<<<<<<< HEAD
 	final Joystick joystick1 =new Joystick (1);
 	
 	public OI() {
 		//button.whenPressed()
 	}
+=======
+>>>>>>> origin/Testing
 	public Joystick getJoystick1()
 	{
 		return joystick1;
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> origin/Testing
     // Button button = new JoystickButton(stick, buttonNumber);
 }
