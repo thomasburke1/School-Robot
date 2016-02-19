@@ -26,7 +26,7 @@ public class Arm extends Subsystem {
 	@SuppressWarnings("null")
 	public void ArmRotate (Joystick joystick) {
 		GenericHID stick = null;
-		drive.arcadeDrive(stick(stick.getY(Hand.kLeft), (stick.getX())));
+		//drive.arcadeDrive(stick(stick.getY(Hand.kLeft), (stick.getX())));
 		
 	}
 
